@@ -2,6 +2,8 @@
 
 A REPL for working (read _fiddling_) with data and manipulations for terraform.
 
+If you've worked with terraform for a while, you'll know that working with lists isn't great as any changes will refresh the entire stack or modules generated from it, and hcl has an odd syntax for working with maps. I found that spinning up a project everytime just to tweak data cumbersome, and this made it easier to log out the results.
+
 ## Development
 
 Requires:
@@ -21,11 +23,14 @@ sh ./scripts/init.sh
 
 # run the watch script
 sh ./scripts/watch.sh
+# ...change the data in `src/main.yaml` and then alter it as required.
 ```
 
-## How to...
+## Example
 
-Change the data in `src/main.yaml` and then alter it as required.
+See [example](example) for more.
+
+Run with `terraform -chdir=example init && terraform -chdir=example plan`
 
 ## Resources
 

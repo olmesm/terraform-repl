@@ -1,0 +1,12 @@
+domain:
+  - name: site_0
+    ttl: 1
+    type: A
+    value: value_0
+    proxied: true
+
+  - name: site_1
+    ttl: 1
+    type: CNAME
+    value: value_1
+    proxied: false
