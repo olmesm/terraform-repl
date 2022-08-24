@@ -16,7 +16,7 @@ asdf plugin add node
 #  Install as needed based on .tool-versions
 asdf install
 
-# Initialize the repo
+# Initialize the repo - first run only, this will remove the src directory and contents
 sh ./scripts/init.sh
 
 # run the watch script
@@ -25,7 +25,7 @@ sh ./scripts/watch.sh
 
 ## How to...
 
-Change the data in src/main.yaml and then alter it as required.
+Change the data in `src/main.yaml` and then alter it as required.
 
 ## Resources
 
