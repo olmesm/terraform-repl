@@ -1,4 +1,4 @@
-domain:
+domain_name:
   - name: site_0
     ttl: 1
     type: A
