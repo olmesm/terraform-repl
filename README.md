@@ -24,13 +24,10 @@ sh ./scripts/init.sh
 # run the watch script
 sh ./scripts/watch.sh
 # ...change the data in `src/main.yaml` and then alter it as required.
+
+## Run the code in ./example
+terraform -chdir=example init && terraform -chdir=example plan
 ```
-
-## Example
-
-See [example](example) for more.
-
-Run with `terraform -chdir=example init && terraform -chdir=example plan`
 
 ## Resources
 
