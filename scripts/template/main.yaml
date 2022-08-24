@@ -1,0 +1,4 @@
+- name: site-1
+  ttl: 1
+  type: A
+  value: my_value
