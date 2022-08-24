@@ -2,14 +2,15 @@
 
 A REPL for working (read _fiddling_) with data and manipulations for terraform.
 
-If you've worked with terraform for a while, you'll know that working with lists isn't great as any changes will refresh the entire stack or modules generated from it, and hcl has an odd syntax for working with maps. I found that spinning up a project everytime just to tweak data cumbersome, and this made it easier to log out the results.
+If you've worked with terraform for a while, you'll know that working with lists isn't great as any changes will refresh the entire stack or modules generated from it, and hcl has an odd syntax for working with maps.
+
+I found that spinning up a project everytime just to play with data cumbersome. This makes it easier to log out the transformation of data.
 
 ## Development
 
 Requires:
 
 - [asdf](https://asdf-vm.com)
-- [make](https://www.gnu.org/software/make/manual/make.html)
 
 ```bash
 # Add system dependencies
